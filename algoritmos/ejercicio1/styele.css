@@ -1,16 +1,16 @@
 .button {
-    background-color: #c8f3a4;
-    color: black;
-    border: 2px solid #4CAF50;
-    padding: 10px 26px;
+    color: #63c43c;
+    padding: 3px 50px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    margin-top: 8px 20px;
+    transition-duration: 0.8s; /*animación del botón*/
+    cursor: pointer; /*cambiar el tipo de cursor*/
+    border-radius: 2cm; /*efecto de redondeo al botón*/
+    border-color: rgb(8, 111, 158);
+    background-color: #ccf2f4;
   }
   b.color{
       color: teal;

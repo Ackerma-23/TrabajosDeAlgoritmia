@@ -1,0 +1,18 @@
+.button {
+    background-color: #c8f3a4;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+b.color{
+      color: teal;
+  }
+  

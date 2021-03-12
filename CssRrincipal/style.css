@@ -1,0 +1,106 @@
+/* regla general para todos el documentos */
+*{  
+    margin: 0em; /*magen */
+    padding: 0em;
+}
+
+
+main{
+    width: 1200px; /* ancho de main */
+    margin: auto; /*magenes automaticos */
+    
+    
+
+
+}
+
+.seccion1{
+   background-color:  #b6e7eb;
+   height: 20%;
+   width: 100%;
+   float: left;
+}
+
+.estilo_menu{
+   margin-left: 20px;    
+   margin-top: 10px;
+}
+.seccion2{
+    background-color: #ccf2f4;
+    height: 500px;
+    width: 100%;
+    float: left;
+ }
+
+header{
+    height: 100px;
+    width: 1200px;
+    margin-top: 20px;
+    
+   
+    
+}
+
+.logo{
+    
+    width: 25%;
+    background-color: #a4ebf3;
+    text-align:right;
+    height: 100px;
+    background-image: url(../img/Universidad_Escudo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    float: left;
+    
+    
+   
+}
+
+ .titulo{
+  
+    width: 75%;
+   
+   float: left;
+   line-height: 100px;
+   text-align:justify;
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   background-color: #a4ebf3; 
+   text-shadow: 4px 4px #aaaaaa;
+}
+
+a:hover {
+    background-color: #d14d5f;
+
+
+}
+a:active {
+    background: rgb(114, 113, 180);
+    color: white;
+  }
+.button {
+    
+ 
+    color: #a4ebf3;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button {
+    background-color: #a4ebf3;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

@@ -19,16 +19,25 @@
        </header>
 
        <section class="seccion1">
-         <div class="estilo_menu">
-             <center>
-                  <p><button class="button"><a href="presentacion.html" target="contenido">Inicio</a></p>
-                  <p><button class="button"><a href="algoritmos/ejercicio1/index.html" target="contenido">Suma de numeros</a></p>
-                  <p><button class="button"><a href="algoritmos/ejercicio2/index.html" target="contenido">Area triangulo</a></p>
-                  <p><button class="button"><a href="algoritmos/personal/index.html" target="contenido">Datos personales</a></p>
-               </center>
-          </div>
+          <div class="navbar">
+                   <div class="estilo_menu" class="navbar">
+                     <a href="presentacion.html" target="contenido" class="active" href="javascript:void(0)">⌂ Inicio</a>
+                      <a href="algoritmos/personal/index.html" target="contenido">Datos personales</a>
+                        <div class="dropdown">
+                            <button class="dropbtn"> Más ▶
+                             <i class="fa fa-caret-down"></i>
+                            </button>
+                                <div class="dropdown-content">
+                                 <a href="algoritmos/ejercicio4/index.html" target="contenido">Área del círculo</a>
+                                 <a href="algoritmos/ejercicio2/index.html" target="contenido">Área del triangulo</a></p>
+                                 <a href="./algoritmos/ejercicio3/index.html" target="contenido">Multiplicación</a></p>
+                                 <a href="algoritmos/ejercicio1/index.html" target="contenido">Suma de números</a>
+                                </div>
+                        </div> 
+                   </div> 
+            </div> 
        </section>
-
+       
        <section class="seccion2">
           <iframe src="presentacion.html" name="contenido" width="100%" height="100%"></iframe>
       </section>
